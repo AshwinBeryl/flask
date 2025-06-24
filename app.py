@@ -50,7 +50,7 @@ def home():
         if user_text:
             insert_text(user_text)
     return '''<form method="POST">
-                Enter text hereee: <input type="text" name="text">
+                Enter text hereee pls: <input type="text" name="text">
                 <input type="submit">
               </form>'''
 
