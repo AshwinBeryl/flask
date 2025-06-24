@@ -8,8 +8,8 @@ import os
 
 db_config = {
     'host': os.getenv('DB_HOST', '172.31.19.73'),
-+   'user': os.getenv('DB_USER', 'flask'),
-+   'password': os.getenv('DB_PASSWORD', 'Flask@123'),
+    'user': os.getenv('DB_USER', 'flask'),
+    'password': os.getenv('DB_PASSWORD', 'Flask@123'),
     'database': os.getenv('DB_NAME', 'blog')
 }
 
